@@ -9,7 +9,7 @@ To support multiple named sheets and proper number formatting with the pre-defin
 
 The pre-defined numFmtIds are (see https://social.msdn.microsoft.com/Forums/office/en-US/e27aaf16-b900-4654-8210-83c5774a179c/xlsx-numfmtid-predefined-id-14-doesnt-match):
 
-''''
+```
 1 0
 2 0.00
 3 #,##0
@@ -41,7 +41,7 @@ The pre-defined numFmtIds are (see https://social.msdn.microsoft.com/Forums/offi
 47 mm:ss.0
 48 ##0.0E+0
 49 @
-''''
+```
 
 Method of specifying numFmtId (and potentially other features later): each cell (td) may have a .jsr-xlsx = {numFmtId: 3} property that will be used to set the format.
 
